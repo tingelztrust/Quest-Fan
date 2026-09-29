@@ -1,0 +1,25 @@
+# Local Wi-Fi credentials: never publish
+**/secrets.h
+*.keystore
+*.jks
+*.pem
+*.p12
+*.pfx
+local.properties
+.env
+.env.*
+# Android/Arduino generated output
+**/build/
+**/.gradle/
+**/.idea/
+**/.cxx/
+**/.arduinoIDE/
+*.class
+*.dex
+*.flat
+*.idsig
+*.log
+.DS_Store
+# Keep only the reviewed release APK; ignore other generated APKs
+android/dist/*.apk
+!android/dist/QuestFan-1.0.apk
